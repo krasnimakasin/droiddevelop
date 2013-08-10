@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+  <string name="mnu_exit">Exit</string>
+  <string name="mnu_opn_prj">Open Project...</string>
+  <string name="msg_click">click!\n</string>
+  <string name="mnu_infos">About...\n</string>
+  <string name="mnu_prj_plugins">Plugins...\n</string>
+  <string name="mnu_prj_opt">Options...</string>
+  <string name="mnu_opn_prj_new">New Project...</string>
+</resources>
