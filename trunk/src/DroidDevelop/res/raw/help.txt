@@ -1,0 +1,42 @@
+DroidDevelop
+
+DroidDevelop contains from:
+1. Interface to JavaIDEDroid programm to compile Java applications for android.
+2. Interface to easy install your application without switching to an other application.
+3. Text editor (for Pro version syntax highlighting is supporting).
+4. A list of additional functionallity as text search, easy compile error navigation, generating a list of methods for class, text searching, etc.
+5. Some refactoring commands with refactoring plugins supporting.
+
+Get starting:
+1. Install JavaIDEDroid for project compilation.
+2. Install OI FileManager to file system navigation.
+3. To select project compilation script go to main menu and select "Open Project...". You can add bsh script file name in input field directly or use OI FileManager to choose it.
+4. To execute choosen bsh script press "Compile" button.
+5. On compilation error/warning, at result you will see a list of errors/warnings. To go to error/warning source code press correspounded item.
+If you have several errors/warnings, you can show again this dialog without recompile by pressing "Others.../Open last compilation messages" command.
+6. On compilation success you will see JavaIDEDroid compilation log. You also can show this dialog again without recompile by "Others/Open last compilation log" command.
+7. To install project press "Run..." button and choose your result *.apk file. Usually it placed on the out folder in your project root path.
+
+Source code editing.
+1. To open any source code file press "Open" button.
+1.1. In menu you can choose "New" option to clear current editor content.
+1.2. You can press "Open File..." to input full path of opening file or for choose it by OI FileManager.
+1.3. You can press "Recent Files..." to choose file from the list of last opened files.
+2. To save file changes press "Save..." button.
+
+Additional commands. 
+Additional commands avail on menu that shown when your click "Others..." button.
+1. By "Open last compilation messages..." you can show dialog with last compilation errors and warnings. You can use it for source code navigation.
+2. "Open last compilation log..." command shown last JavaIDEDroid script output.
+3. "List of class methods..." command shown public methods and constructors for choosen class. This is can be any class from Android SDK. 
+4. "Search" command shown search panel at the top of screen. To close it you can press "Close" button. To process search input you query text into input box .
+To go to next hit press "Next" button. To go to previous hit press "Prev" button.
+5. "Go to Line" command provides ability to move current editor position to the choosen line.
+6. "Char code..." command returns charecter code for first input synbol. It's can be usefull for processing keyboard events, parsing strings etc.
+
+Refactoring command.
+Refactoring commands list can be used by "Refactoring" button click.
+Now in standart complictation available only one command. It's command move selected block of text to try/catch construction.
+But it is not bad. Every one can add to this menu youself command. On the Android Market you  can find open source example of the DroidDevelop refactoring plugin.
+More information you can find on the en.assoft.ru.
+ 

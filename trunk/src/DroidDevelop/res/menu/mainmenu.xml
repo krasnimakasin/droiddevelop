@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <item
+    android:id="@+id/opn_prj_new"
+    android:title="@string/mnu_opn_prj_new"
+    android:icon="@android:drawable/ic_menu_add"
+  />
+  <item
+    android:id="@+id/opn_prj"
+    android:title="@string/mnu_opn_prj"
+    android:icon="@android:drawable/ic_menu_myplaces"
+  />
+  <item
+    android:id="@+id/opt_prj_opt"
+    android:title="@string/mnu_prj_opt"
+    android:icon="@android:drawable/ic_menu_preferences"    
+  />
+    <item
+    android:id="@+id/prj_plugins"
+    android:title="@string/mnu_prj_plugins"
+    android:icon="@android:drawable/btn_star"    
+  />
+  <item
+    android:id="@+id/opt_infos"
+    android:title="@string/mnu_infos"
+    android:icon="@android:drawable/ic_menu_info_details"
+  />
+  <item
+    android:id="@+id/opt_exit"
+    android:title="@string/mnu_exit"
+    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+  />
+</menu>

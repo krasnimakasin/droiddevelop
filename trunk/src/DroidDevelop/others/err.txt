@@ -1,0 +1,343 @@
+Running script /mnt/storage/sdcard/progr/java/_my/DroidDevelop/0_build-debug.bsh
+
+
+***** Calling Aapt ...
+WARNING: Aapt was built for Android API level 9 or higher.
+Your API level is 8
+Aapt might not work correctly on your device!
+
+Aapt arguments:
+p
+-m
+-J
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/gen
+-M
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/AndroidManifest.xml
+-v
+-S
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/res
+-I
+/mnt/storage/sdcard/progr/java/Hello_Android/android.jar
+-f
+-F
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/out/test/DroidDevelop/DroidDevelop.apk.res
+Locale/Vendor pairs:
+   /
+   /
+   /
+   /
+
+Files:
+  drawable-hdpi/assoft.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-hdpi/assoft.png
+  drawable-hdpi/icon.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-hdpi/icon.png
+  drawable-ldpi/assoft.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-ldpi/assoft.png
+  drawable-ldpi/icon.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-ldpi/icon.png
+  drawable-mdpi/assoft.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-mdpi/assoft.png
+  drawable-mdpi/icon.png
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-mdpi/icon.png
+  layout/main.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/main.xml
+  layout/prjopt.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/prjopt.xml
+  layout/selectfile.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/selectfile.xml
+  menu/mainmenu.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/menu/mainmenu.xml
+  values/strings.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/values/strings.xml
+  AndroidManifest.xml
+      Src: /mnt/storage/sdcard/progr/java/_my/DroidDevelop/AndroidManifest.xml
+Including resources from package: /mnt/storage/sdcard/progr/java/Hello_Android/android.jar
+applyFileOverlay for drawable
+applyFileOverlay for layout
+applyFileOverlay for anim
+applyFileOverlay for xml
+applyFileOverlay for raw
+applyFileOverlay for color
+applyFileOverlay for menu
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-hdpi/assoft.png: 96% size of source)
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-ldpi/assoft.png: 96% size of source)
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-mdpi/assoft.png: 96% size of source)
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-hdpi/icon.png: 97% size of source)
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-ldpi/icon.png: 97% size of source)
+    (processed image /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-mdpi/icon.png: 97% size of source)
+    (new resource id assoft from drawable-ldpi/assoft.png #generated)
+    (new resource id assoft from drawable-ldpi/assoft.png #generated)
+    (new resource id assoft from drawable-ldpi/assoft.png #generated)
+    (new resource id icon from drawable-ldpi/icon.png #generated)
+    (new resource id icon from drawable-ldpi/icon.png #generated)
+    (new resource id icon from drawable-ldpi/icon.png #generated)
+    (new resource id main from /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/main.xml)
+    (new resource id prjopt from /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/prjopt.xml)
+    (new resource id selectfile from /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/layout/selectfile.xml)
+    (new resource id mainmenu from /mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/menu/mainmenu.xml)
+  Writing symbols for class R.
+Opening '/mnt/storage/sdcard/progr/java/_my/DroidDevelop/out/test/DroidDevelop/DroidDevelop.apk.res'
+Writing all files...
+      'res/layout/main.xml' (compressed 72%)
+      'res/layout/prjopt.xml' (compressed 58%)
+      'res/layout/selectfile.xml' (compressed 58%)
+      'res/menu/mainmenu.xml' (compressed 63%)
+      'AndroidManifest.xml' (compressed 63%)
+      'resources.arsc' (not compressed)
+      'res/drawable-hdpi/assoft.png' (not compressed)
+      'res/drawable-hdpi/icon.png' (not compressed)
+      'res/drawable-ldpi/assoft.png' (not compressed)
+      'res/drawable-ldpi/icon.png' (not compressed)
+      'res/drawable-mdpi/assoft.png' (not compressed)
+      'res/drawable-mdpi/icon.png' (not compressed)
+Generated 12 files
+Included 0 files from jar/zip files.
+Checking for deleted files
+Done!
+    (skipping (null) file '/mnt/storage/sdcard/progr/java/_my/DroidDevelop/res/drawable-hdpi/_icon.png')
+
+Done in 2 sec.
+
+ExitValue: 0
+***** Compiling src/com/kn/DroidDevelop/MainActivity.java ...
+Compilation arguments:
+-verbose
+-deprecation
+-extdirs
+
+-1.5
+-bootclasspath
+/mnt/storage/sdcard/progr/java/Hello_Android/android.jar
+-classpath
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/src:/mnt/storage/sdcard/progr/java/_my/DroidDevelop/gen
+-d
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/out/test/DroidDevelop
+/mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java
+-sourcepath
+/mnt/storage/sdcard/progr/java/_my/
+
+[parsing    /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java - #1/1]
+[reading    android/app/Activity.class]
+[reading    android/view/ContextThemeWrapper.class]
+[reading    android/content/ContextWrapper.class]
+[reading    android/content/Context.class]
+[reading    java/lang/Object.class]
+[reading    android/content/ComponentCallbacks.class]
+[reading    android/view/View$OnCreateContextMenuListener.class]
+[reading    android/view/View.class]
+[reading    android/view/KeyEvent$Callback.class]
+[reading    android/view/KeyEvent.class]
+[reading    android/os/Parcelable$Creator.class]
+[reading    android/os/Parcelable.class]
+[reading    android/view/Window$Callback.class]
+[reading    android/view/Window.class]
+[reading    android/view/LayoutInflater$Factory.class]
+[reading    android/view/LayoutInflater.class]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java - #1/1]
+[reading    android/content/Intent.class]
+[reading    android/content/res/Resources.class]
+[reading    android/os/Bundle.class]
+[reading    android/view/Menu.class]
+[reading    android/view/MenuItem.class]
+[reading    android/widget/EditText.class]
+[reading    android/content/DialogInterface.class]
+[reading    android/text/Html.class]
+[reading    android/graphics/drawable/Drawable.class]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/gui/MessageBox.java - #2/2]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/gui/Dialogs.java - #3/3]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/gui/TextDialog.java - #4/4]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/data/TextFiles.java - #5/5]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/data/PrefsStorage.java - #6/6]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/data/FileUtils.java - #7/7]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/data/RecentFiles.java - #8/8]
+[parsing    /mnt/storage/sdcard/progr/java/_my/kn/utils/Task.java - #9/9]
+[reading    java/lang/String.class]
+[reading    java/lang/Override.class]
+[reading    android/content/res/Resources$Theme.class]
+[reading    android/content/IntentSender.class]
+[reading    android/content/IntentSender$SendIntentException.class]
+[reading    android/content/pm/PackageManager$NameNotFoundException.class]
+[reading    android/content/pm/PackageManager.class]
+[reading    android/net/Uri.class]
+[reading    android/content/ComponentName.class]
+[reading    android/content/ServiceConnection.class]
+[reading    android/content/BroadcastReceiver.class]
+[reading    android/os/Handler.class]
+[reading    android/content/IntentFilter.class]
+[reading    java/io/IOException.class]
+[reading    java/io/InputStream.class]
+[reading    android/graphics/Bitmap.class]
+[reading    java/io/File.class]
+[reading    android/database/sqlite/SQLiteDatabase.class]
+[reading    android/database/sqlite/SQLiteDatabase$CursorFactory.class]
+[reading    java/io/FileOutputStream.class]
+[reading    java/io/FileNotFoundException.class]
+[reading    java/io/FileInputStream.class]
+[reading    android/content/SharedPreferences.class]
+[reading    android/content/pm/ApplicationInfo.class]
+[reading    java/lang/ClassLoader.class]
+[reading    android/os/Looper.class]
+[reading    android/content/ContentResolver.class]
+[reading    android/content/res/AssetManager.class]
+[reading    android/util/AttributeSet.class]
+[reading    android/view/WindowManager$LayoutParams.class]
+[reading    android/view/WindowManager.class]
+[reading    android/view/accessibility/AccessibilityEvent.class]
+[reading    android/view/MotionEvent.class]
+[reading    android/view/ContextMenu$ContextMenuInfo.class]
+[reading    android/view/ContextMenu.class]
+[reading    android/content/res/Configuration.class]
+[reading    java/lang/Exception.class]
+[reading    java/lang/Throwable.class]
+[reading    android/content/DialogInterface$OnClickListener.class]
+[reading    java/lang/Integer.class]
+[reading    android/app/AlertDialog.class]
+[reading    android/app/AlertDialog$Builder.class]
+[reading    android/text/Editable.class]
+[reading    java/lang/Appendable.class]
+[reading    android/text/Spannable.class]
+[reading    android/text/GetChars.class]
+[reading    java/lang/CharSequence.class]
+[reading    android/text/Spanned.class]
+[reading    android/widget/TextView$BufferType.class]
+[reading    android/widget/TextView.class]
+[reading    java/lang/Comparable.class]
+[reading    java/io/Serializable.class]
+[reading    android/view/MenuInflater.class]
+[reading    android/text/Html$ImageGetter.class]
+[reading    android/content/res/Resources$NotFoundException.class]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/gui/MessageBox.java - #2/9]
+[reading    android/app/Dialog.class]
+[completed  /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java - #1/9]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/gui/Dialogs.java - #3/9]
+[reading    android/text/method/LinkMovementMethod.class]
+[reading    android/text/method/MovementMethod.class]
+[writing    kn/gui/MessageBox.class - #1]
+[reading    android/text/Html$TagHandler.class]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/gui/TextDialog.java - #4/9]
+[reading    android/widget/ScrollView.class]
+[reading    android/widget/FrameLayout.class]
+[reading    android/view/ViewGroup.class]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/data/TextFiles.java - #5/9]
+[writing    kn/gui/MessageBox$1.class - #2]
+[reading    java/net/URI.class]
+[reading    android/widget/Toast.class]
+[reading    android/webkit/MimeTypeMap.class]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/gui/MessageBox.java - #2/9]
+[writing    kn/gui/Dialogs.class - #3]
+[reading    java/io/OutputStream.class]
+[reading    java/io/BufferedOutputStream.class]
+[reading    java/io/FilterOutputStream.class]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/gui/Dialogs.java - #3/9]
+[writing    kn/gui/outObjCont.class - #4]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/data/PrefsStorage.java - #6/9]
+[reading    android/content/SharedPreferences$Editor.class]
+[reading    android/preference/PreferenceManager.class]
+[reading    java/util/Map.class]
+[reading    java/util/Map$Entry.class]
+[writing    kn/gui/TextDialog.class - #5]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/data/FileUtils.java - #7/9]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/data/RecentFiles.java - #8/9]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/gui/TextDialog.java - #4/9]
+[analyzing  /mnt/storage/sdcard/progr/java/_my/kn/utils/Task.java - #9/9]
+[writing    kn/data/TextFiles.class - #6]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/data/TextFiles.java - #5/9]
+[writing    kn/data/PrefsStorage.class - #7]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/data/PrefsStorage.java - #6/9]
+[writing    kn/data/FileUtils.class - #8]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/data/FileUtils.java - #7/9]
+[writing    kn/data/RecentFiles.class - #9]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/data/RecentFiles.java - #8/9]
+[writing    kn/utils/Task.class - #10]
+[completed  /mnt/storage/sdcard/progr/java/_my/kn/utils/Task.java - #9/9]
+[9 units compiled]
+[10 .class files generated]
+----------
+1. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 1)
+	xpackage com.kn.DroidDevelop;
+	^^^^^^^^
+Syntax error on token "xpackage", package expected
+----------
+2. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 33)
+	private Editor editor;
+	        ^^^^^^
+Editor cannot be resolved to a type
+----------
+3. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 56)
+	setContentView(R.layout.main);
+	               ^
+R cannot be resolved to a variable
+----------
+4. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 57)
+	tv = (EditText)findViewById(R.id.vwEdit);
+	                            ^
+R cannot be resolved to a variable
+----------
+5. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 58)
+	editor = new Editor(this, tv);
+	^^^^^^
+Editor cannot be resolved to a type
+----------
+6. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 58)
+	editor = new Editor(this, tv);
+	             ^^^^^^
+Editor cannot be resolved to a type
+----------
+7. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 86)
+	String res = editor.OpenFile(fileName);
+	             ^^^^^^
+Editor cannot be resolved to a type
+----------
+8. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 127)
+	editor.taskAskToSave(new Task()
+	^^^^^^
+Editor cannot be resolved to a type
+----------
+9. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 138)
+	editor.save();
+	^^^^^^
+Editor cannot be resolved to a type
+----------
+10. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 143)
+	editor.taskAskToSave(new Task()
+	^^^^^^
+Editor cannot be resolved to a type
+----------
+11. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 147)
+	editor.CloseFile();
+	^^^^^^
+Editor cannot be resolved to a type
+----------
+12. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 219)
+	getMenuInflater().inflate(R.menu.mainmenu, menu);
+	                          ^
+R cannot be resolved to a variable
+----------
+13. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 229)
+	Drawable result = res.getDrawable(R.drawable.assoft);
+	                                  ^
+R cannot be resolved to a variable
+----------
+14. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 247)
+	case R.id.opt_exit:
+	     ^
+R cannot be resolved to a variable
+----------
+15. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 250)
+	case R.id.opn_prj:
+	     ^
+R cannot be resolved to a variable
+----------
+16. ERROR in /mnt/storage/sdcard/progr/java/_my/DroidDevelop/src/com/kn/DroidDevelop/MainActivity.java (at line 253)
+	case R.id.opt_infos:
+	     ^
+R cannot be resolved to a variable
+----------
+16 problems (16 errors)
+Done in 5 sec.
+
+ExitValue: 2
+
+Total script run time: 9 sec.
+
