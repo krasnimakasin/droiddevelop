@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/vwMain"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/vwButtons"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+>
+  <Button
+    android:id ="@+id/btnOpen"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Open..."
+    android:onClick="OnClickBtnOpen"
+  />
+  <Button
+    android:id ="@+id/btnSave"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Save..."
+    android:onClick="OnClickBtnSave"
+  />
+  <Button
+    android:id ="@+id/btnCompile"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Compile"
+    android:onClick="OnClickBtnCompile"
+  />
+  <Button
+    android:id ="@+id/btnRun"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Run..."
+    android:onClick="OnClickBtnRun"
+  />
+  <Button
+    android:id ="@+id/btnOthers"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Others..."
+    android:onClick="OnClickBtnOthers"
+  />
+   <Button
+    android:id ="@+id/btnRefactoring"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Refactoring"
+    android:onClick="OnClickBtnRefact"
+  />  
+  <Button
+    android:id ="@+id/btnHide"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Hide"
+    android:onClick="OnClickBtnHide"
+  />    
+  </LinearLayout>
+  </ScrollView>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <LinearLayout
+    android:id="@+id/vwAds"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >   
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/vwEdit"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarSize="100sp"
+   >
+  </LinearLayout>
+  </LinearLayout>
+  </LinearLayout>
